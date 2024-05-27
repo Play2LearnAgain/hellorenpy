@@ -31,11 +31,11 @@ label start:
 
     "At the beginning of an exciting new day..."
 
-    show eileen at left with dissolve
+    show eileen idle at left with dissolve
 
     e "Hello there! How are you today?"
 
-    show bertram at right with dissolve
+    show bertram idle at right with dissolve
 
     b "I'm good, thank you! And you?"
     e "I'm doing well, thanks for asking."
