@@ -41,4 +41,6 @@ label start:
     e "I'm doing well, thanks for asking."
     b "Alright, let's get back to the main menu."
 
+    show screen HelloScreen
+
     return
