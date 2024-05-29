@@ -1,3 +1,7 @@
+screen HelloScreen():
+  text "Hello Screen"
+
+
 screen eileen():
   imagebutton:
     xpos 0.25
