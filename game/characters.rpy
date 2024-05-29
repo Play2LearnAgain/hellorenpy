@@ -2,7 +2,7 @@ screen HelloScreen():
   text "Hello Screen"
 
 
-screen eileen():
+screen EileenScreen():
   imagebutton:
     xpos 0.25
     ypos 0.2
@@ -20,7 +20,7 @@ screen eileen():
     ) 
     action Function(renpy.call, "eileen_greeting")
 
-screen bertram():
+screen BertramScreen():
   imagebutton:
     xpos 0.75
     ypos 0.2
