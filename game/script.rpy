@@ -15,11 +15,11 @@ label start:
     scene bg room
     pause
 
-    show EileenScreen with dissolve
+    show screen EileenScreen with dissolve
 
     e "Hello there! How are you today?"
 
-    show BertramScreen with dissolve
+    show screen BertramScreen with dissolve
 
     b "I'm good, thank you! And you?"
     e "I'm doing well, thanks for asking."
