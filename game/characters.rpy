@@ -4,8 +4,8 @@ screen HelloScreen():
 
 screen EileenScreen():
   imagebutton:
-    xpos 0.1
-    ypos 0.1
+    xpos 0.01
+    ypos 0.01
     idle Composite(
       (556, 1000),
       (0, 0), "assets/fm01/fm01-body.png",
@@ -21,8 +21,8 @@ screen EileenScreen():
 
 screen BertramScreen():
   imagebutton:
-    xpos 0.6
-    ypos 0.1
+    xpos 0.7
+    ypos 0.01
     idle Composite(
         (556, 1000),
         (0, 0), im.Flip("assets/m01/m01-body.png", horizontal=True),
