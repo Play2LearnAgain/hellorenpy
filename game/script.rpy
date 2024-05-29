@@ -28,24 +28,20 @@ image bertram idle = Composite(
 
 label start:
     scene bg room
+    pause
 
-    "At the beginning of an exciting new day..."
-
-    show eileen idle at left with dissolve
+    show EileenScreen with dissolve
 
     e "Hello there! How are you today?"
 
-    show bertram idle at right with dissolve
+    show BertramScreen with dissolve
 
     b "I'm good, thank you! And you?"
     e "I'm doing well, thanks for asking."
     b "Alright, let's get back to the main menu."
 
-    hide eileen with dissolve
-    hide bertram with dissolve
-    pause
-
-    show screen EileenScreen
+    hide EileenScreen with dissolve
+    hide BertramScreen with dissolve
     pause
 
     return
