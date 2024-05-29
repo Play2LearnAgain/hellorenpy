@@ -9,21 +9,6 @@ define b = Character("Bertram", color="ffc8c8")
 # Images
 image bg room = "assets/bg01-hallway.jpg"
 
-image eileen idle = Composite(
-    (556, 1000),
-    (0, 0), "assets/fm01/fm01-body.png",
-    (0, 0), "assets/fm01/fm01-eyes-smile.png",
-    (0, 0), "assets/fm01/fm01-mouth-smile00.png",
-)
-
-image bertram idle = Composite(
-    (556, 1000),
-    (0, 0), im.Flip("assets/m01/m01-body.png", horizontal=True),
-    (0, 0), im.Flip("assets/m01/m01-eyes-smile.png", horizontal=True),
-    (0, 0), im.Flip("assets/m01/m01-mouth-smile00.png", horizontal=True),
-)
-
-
 # The game starts here.
 
 label start:
