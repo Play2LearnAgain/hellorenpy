@@ -1,6 +1,6 @@
 screen eileen():
   imagebutton:
-    xplos 0.25
+    xpos 0.25
     ypos 0.2
     idle Composite(
       (556, 1000),
