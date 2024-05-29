@@ -42,5 +42,6 @@ label start:
     b "Alright, let's get back to the main menu."
 
     show screen HelloScreen
+    pause
 
     return
